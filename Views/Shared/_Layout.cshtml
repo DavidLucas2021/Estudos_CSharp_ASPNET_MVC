@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    <title>@ViewBag.Title</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 </head>
@@ -28,6 +28,9 @@
             </div>
         </div>
     </div>
+    @*<a class="alert-danger" href="https://www.google.com.br" target="_blank">Acesso ao Google</a>*@
+    @Html.ActionLink("Inícial", "Index", "Home")<br>
+    @Html.ActionLink("Contatos", "Contatos", "Home")<br>
     <div class="container body-content">
         @RenderBody()
         <hr />

@@ -22,3 +22,10 @@ select,
 textarea {
     max-width: 280px;
 }
+a{
+    color:coral;
+    font-weight:bold;
+}
+h2{
+    color:springgreen;
+}
