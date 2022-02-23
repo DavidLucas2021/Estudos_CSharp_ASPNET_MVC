@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using ASPNET_MVC5.Models;
 
 namespace ASPNET_MVC5.Controllers
 {
@@ -11,6 +12,15 @@ namespace ASPNET_MVC5.Controllers
         // GET: Home
         public ActionResult Index()
         {
+            var pessoa = new Pessoa
+            {
+                PessoasID = 1,
+                Nome = "David",
+                Tipo = "Funcionário"
+            };
+            ViewData["PessoasID"] = pessoa.PessoasID;
+            ViewData["Nome"] = pessoa.Nome;
+            ViewData["Tipo"] = pessoa.Tipo;
             return View();
         }
         public ActionResult Contatos()
