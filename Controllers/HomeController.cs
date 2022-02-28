@@ -18,10 +18,7 @@ namespace ASPNET_MVC5.Controllers
                 Nome = "David",
                 Tipo = "Funcionário"
             };
-            ViewData["PessoasID"] = pessoa.PessoasID;
-            ViewData["Nome"] = pessoa.Nome;
-            ViewData["Tipo"] = pessoa.Tipo;
-            return View();
+            return View(pessoa);
         }
         public ActionResult Contatos()
         {
