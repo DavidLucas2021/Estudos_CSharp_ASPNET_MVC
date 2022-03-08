@@ -79,8 +79,8 @@ C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\bin\pt-br\System.Web.Razo
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\bin\pt-br\System.Web.WebPages.resources.dll
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\bin\pt-br\System.Web.WebPages.Razor.resources.dll
-C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.AssemblyReference.cache
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.CoreCompileInputs.cache
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.CopyComplete
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.dll
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.pdb
+C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.AssemblyReference.cache

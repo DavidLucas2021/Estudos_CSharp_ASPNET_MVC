@@ -7,7 +7,36 @@
 <br />
 <br />
 
+<form action="Home/List" method="POST">
+    <fieldset>
+        <legend>INFORMAÇÔES DE PESSOAS</legend>
 
-<p>@Model.PessoasID</p>
-<p>@Model.Nome</p>
-<p>@Model.Tipo</p>
+        <div>
+            <label for="IDLABEL">ID PESSOA</label>
+        </div>
+        <div>
+            <input type="number" value=@Model.PessoasID name="IDPESSOA" />
+        </div>
+
+
+        <div>
+            <label>NOME</label>
+        </div>
+        <div>
+            <input type="text" value=@Model.Nome name="NOMEPESSOA" />
+        </div>
+
+
+        <div>
+            <label>TIPO</label>
+        </div>
+        <div>
+            <input type="text" value=@Model.Tipo name="TIPO" />
+        </div>
+
+
+        @*BOTÃO DE GRAVAR NO INDEX*@
+        <input type="submit" name="BOTÃOGRAVAR" value="Gravar" />
+
+    </fieldset>
+</form>
