@@ -24,7 +24,7 @@ namespace ASPNET_MVC5.Controllers
         {
             return View();
         }
-        [HttpPost] //REQUISIÇÃO HTTP DE DADOS 
+        //[HttpPost] //REQUISIÇÃO HTTP DE DADOS 
         public ActionResult List(int IDPESSOA, string NOMEPESSOA, string TIPO)
         {
             ViewData["PessoasID"] = IDPESSOA;
