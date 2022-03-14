@@ -83,3 +83,4 @@ C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csp
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.CopyComplete
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.dll
 C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.pdb
+C:\Users\David Lucas\Desktop\Estudos\CURSOS\ASPNETMVC5\obj\Debug\ASPNET_MVC5.csproj.AssemblyReference.cache

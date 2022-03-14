@@ -1,4 +1,4 @@
-﻿<AddModule Include=Pessoa />
+﻿@model ASPNET_MVC5.Models.Pessoa
 @{
     ViewBag.Title = "Estudos ASPNET MVC";
 }
@@ -7,31 +7,32 @@
 <br />
 <br />
 
-<form action="Home/List" method="POST">
+@using (Html.BeginForm("List", "Home", FormMethod.Post))
+{
     <fieldset>
         <legend>INFORMAÇÔES DE PESSOAS</legend>
 
         <div>
-            <label for="IDLABEL">ID PESSOA</label>
+            @Html.LabelFor(x => x.PessoasID)
         </div>
         <div>
-            <input type="number" value=@Model.PessoasID name="PessoasID" />
-        </div>
-
-
-        <div>
-            <label>NOME</label>
-        </div>
-        <div>
-            <input type="text" value=@Model.Nome name="Nome" />
+            @Html.EditorFor(x => x.PessoasID)
         </div>
 
 
         <div>
-            <label>TIPO</label>
+            @Html.LabelFor(y => y.Nome)
         </div>
         <div>
-            <input type="text" value=@Model.Tipo name="Tipo" />
+            @Html.EditorFor(a => a.Nome)
+        </div>
+
+
+        <div>
+            @Html.LabelFor(t => t.Tipo)
+        </div>
+        <div>
+            @Html.EditorFor(g => g.Tipo)
         </div>
 
 
@@ -39,4 +40,4 @@
         <input type="submit" name="BOTÃOGRAVAR" value="Gravar" />
 
     </fieldset>
-</form>
+}
