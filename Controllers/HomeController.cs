@@ -24,13 +24,10 @@ namespace ASPNET_MVC5.Controllers
         {
             return View();
         }
-        //[HttpPost] //REQUISIÇÃO HTTP DE DADOS 
-        public ActionResult List(int IDPESSOA, string NOMEPESSOA, string TIPO)
+        [HttpPost] //REQUISIÇÃO HTTP DE DADOS 
+        public ActionResult List(Pessoa pessoa)
         {
-            ViewData["PessoasID"] = IDPESSOA;
-            ViewData["Nome"] = NOMEPESSOA;
-            ViewData["Tipo"] = TIPO;
-            return View();
+            return View(pessoa);
         }
     }
 }

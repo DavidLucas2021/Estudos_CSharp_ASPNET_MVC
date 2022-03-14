@@ -7,7 +7,7 @@
 <br />
 <br />
 
-<form action="Home/List" method="GET">
+<form action="Home/List" method="POST">
     <fieldset>
         <legend>INFORMAÇÔES DE PESSOAS</legend>
 
@@ -15,7 +15,7 @@
             <label for="IDLABEL">ID PESSOA</label>
         </div>
         <div>
-            <input type="number" value=@Model.PessoasID name="IDPESSOA" />
+            <input type="number" value=@Model.PessoasID name="PessoasID" />
         </div>
 
 
@@ -23,7 +23,7 @@
             <label>NOME</label>
         </div>
         <div>
-            <input type="text" value=@Model.Nome name="NOMEPESSOA" />
+            <input type="text" value=@Model.Nome name="Nome" />
         </div>
 
 
@@ -31,7 +31,7 @@
             <label>TIPO</label>
         </div>
         <div>
-            <input type="text" value=@Model.Tipo name="TIPO" />
+            <input type="text" value=@Model.Tipo name="Tipo" />
         </div>
 
 

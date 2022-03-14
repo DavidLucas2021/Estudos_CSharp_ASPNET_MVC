@@ -1,4 +1,6 @@
-﻿
+﻿@model ASPNET_MVC5.Models.Pessoa
+
+
 @{
     ViewBag.Title = "List";
 }
@@ -9,20 +11,20 @@
     <label><b>ID</b></label>
 </div>
 <div>
-   <p>@ViewData["PessoasID"]</p>
+   <p>@Model.PessoasID</p>
 </div>
 
 <div>
     <label><b>NOME</b></label>
 </div>
 <div>
-    <p>@ViewData["Nome"]</p>
+    <p>@Model.Nome</p>
 </div>
 
 <div>
     <label><b>TIPO</b></label>
 </div>
 <div>
-    <p>@ViewData["Tipo"]</p>
+    <p>@Model.Tipo</p>
 </div>
 <a href="~/">Voltar ao HOME</a>
